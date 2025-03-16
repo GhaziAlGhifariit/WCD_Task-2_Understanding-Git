@@ -72,9 +72,9 @@
 
 2.**lalu jalankan perintah**
    
-   
+   ```
    git add.
-   
+   ```
 
 3.**Lakukan commit ulang file yang telah dirubah**
       Dengan menjalankan perintah
@@ -105,7 +105,7 @@
    git checkout -b feature-baru
    ```
 
-   ![Screenshot 2025-03-16 092411](https://github.com/user-attachments/assets/1a941aa5-46c1-495e-97d7-dcb50b219f03)
+    ![Screenshot 2025-03-16 092411](https://github.com/user-attachments/assets/1a941aa5-46c1-495e-97d7-dcb50b219f03)
 
 2.**Lakukan perubahan pada file**
 
