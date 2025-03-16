@@ -82,7 +82,7 @@
       Dengan menjalankan perintah
 
       
-      git commit - m "Feature : transalte bahasa"
+   git commit - m "Feature : transalte bahasa"
       
 
    <img width="579" alt="image" src="https://github.com/user-attachments/assets/48f81528-7dea-4aae-857c-3ba1a7ccf101" />
@@ -98,43 +98,42 @@
     dengan menjalankan perintah :
 
    ```
-    git checkout -b nama-branch-baru
+   git checkout -b nama-branch-baru
    ```
 
    contoh :
 
    ```
-   git checkout -b feature-baru
-   
+   git checkout -b feature-baru 
    ```
 
     ![Screenshot 2025-03-16 092411](https://github.com/user-attachments/assets/1a941aa5-46c1-495e-97d7-dcb50b219f03)
 
 2.**Lakukan perubahan pada file**
 
- ```
- console.log("Mencoba membuat branch baru")//output baru untuk branch baru
- console.log("Halo,bandung!"); // output baru untuk branch baru
- ```
+    ```
+    console.log("Mencoba membuat branch baru")//output baru untuk branch baru
+    console.log("Halo,bandung!"); // output baru untuk branch baru
+    ```
 
 3.**Cek kembali status**
        
- ```
- git status
- ```
+   ```
+   git status
+   ```
 
    ![Screenshot 2025-03-16 092914](https://github.com/user-attachments/assets/88e7b0e4-7fe4-493b-8967-6c8733cd13b9)
    
 4.**Tambahkan File ke Staging Area**
-
- ```
- git add .
- ```
+ 
+   ```
+   git add .
+   ```
 5.**Lakukan Commit ulang untuk branch baru**
 
-  ```
-  git commit -m "feature:fitur baru"
-  ```
+   ```
+   git commit -m "feature:fitur baru"
+   ```
 6.**Push Branch ke GitHub**
 
    ```
