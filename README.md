@@ -51,10 +51,10 @@
 
 5.**Lakukan Commit Pertama Simpan perubahan dengan membuat commit pertama**
 
-    ```
+    
     git commit -m "Feat : Inisialisai commit!"
     
-    ```
+    
 
     
 ## Making Changes and Pushing to GitHub
