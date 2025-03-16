@@ -1,7 +1,7 @@
-![Screenshot 2025-03-16 085731](https://github.com/user-attachments/assets/c3f178a2-c063-4a6b-8ce8-576f4e257bd9)![image](https://github.com/user-attachments/assets/c94bc163-3fd2-4bfe-88ec-a3528097405b)
+(https://github.com/user-attachments/assets/c94bc163-3fd2-4bfe-88ec-a3528097405b)
 ## Implement GIT and Explaination
 
-1. **Initializing a Repository**
+1. ## Initializing a Repository**
 
 a.**Buat Direktori File**
    Langkah pertama anda harus memastikan sudah membuat folder.
@@ -54,9 +54,8 @@ e.**Lakukan Commit Pertama Simpan perubahan dengan membuat commit pertama**
     ```
 
     
-2. **Making Changes and Pushing to GitHub**
-
-   a.Lakukan perubahan pada file
+   2. ## Making Changes and Pushing to GitHub
+a.**Lakukan perubahan pada file**
 
    ```
    console.log("Try Repository");
@@ -70,14 +69,14 @@ e.**Lakukan Commit Pertama Simpan perubahan dengan membuat commit pertama**
 
    ![Screenshot 2025-03-16 085731](https://github.com/user-attachments/assets/ea98c449-fa77-4d91-8581-d4b33f02eca6)
 
-   b.lalu jalankan perintah
+b.**lalu jalankan perintah**
    
    ```
    git add.
    ```
 
-   c. Lakukan commit ulang file yang telah dirubah
-      dengan menjalankan perintah
+c.**Lakukan commit ulang file yang telah dirubah**
+      Dengan menjalankan perintah
 
       ```
       git commit - m "Feature : transalte bahasa"
@@ -85,14 +84,71 @@ e.**Lakukan Commit Pertama Simpan perubahan dengan membuat commit pertama**
 
    <img width="579" alt="image" src="https://github.com/user-attachments/assets/48f81528-7dea-4aae-857c-3ba1a7ccf101" />
 
-   d.Push perubahan ke Github
+   d.**Push perubahan ke Github**
+   
+       ```
+         git push origin main
+      ```
 
+3. ## Working with Branches and Pushing to GitHub
+   a.**Buat Branch baru yang akan digunakan**
+    dengan menjalankan perintah :
+
+   ```
+    git checkout -b nama-branch-baru
+   ```
+
+   contoh :
+
+   ````
+   git checkout -b feature-baru
+   ```
+
+   ![Screenshot 2025-03-16 092411](https://github.com/user-attachments/assets/1a941aa5-46c1-495e-97d7-dcb50b219f03)
+
+b.**Lakukan perubahan pada file**
+
+ ```
+   console.log("Mencoba membuat branch baru")//output baru untuk branch baru
+   console.log("Halo,bandung!"); // output baru untuk branch baru
+   ```
+
+C.**Cek kembali status**
+       
+   ```
+         git status
+   ```
+
+   ![Screenshot 2025-03-16 092914](https://github.com/user-attachments/assets/88e7b0e4-7fe4-493b-8967-6c8733cd13b9)
+   
+d.**Tambahkan File ke Staging Area**
+
+   ```
+      git add .
+   ```
+e.**Lakukan Commit ulang untuk branch baru**
+
+   ```
+   git commit -m "feature:fitur baru"
+   ```
+f.**Push Branch ke GitHub**
+
+   ```
+   git push origin feature-baru
+   ```
+<img width="566" alt="image" src="https://github.com/user-attachments/assets/5226e526-cd62-4255-bbce-c535d8239d9f" />
+
+
+
+   
    
 
 
 
 
 
+   
+     
 
 
 
