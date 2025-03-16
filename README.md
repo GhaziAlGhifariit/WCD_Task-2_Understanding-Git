@@ -1,4 +1,4 @@
-![Screenshot 2025-03-16 085731](https://github.com/user-attachments/assets/c3f178a2-c063-4a6b-8ce8-576f4e257bd9)![image](https://github.com/user-attachments/assets/c94bc163-3fd2-4bfe-88ec-a3528097405b)
+attachments/assets/c94bc163-3fd2-4bfe-88ec-a3528097405b)
 ## Implement GIT and Explaination
 
 1. **Initializing a Repository**
