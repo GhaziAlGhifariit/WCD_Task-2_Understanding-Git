@@ -85,7 +85,7 @@ e.**Lakukan Commit Pertama Simpan perubahan dengan membuat commit pertama**
 
    <img width="579" alt="image" src="https://github.com/user-attachments/assets/48f81528-7dea-4aae-857c-3ba1a7ccf101" />
 
-
+   d.Push perubahan ke Github
 
    
 
