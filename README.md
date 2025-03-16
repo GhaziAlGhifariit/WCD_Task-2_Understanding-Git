@@ -1,4 +1,5 @@
-<img width="566" alt="image" src="https://github.com/user-attachments/assets/834c6b18-8f4d-47cc-88fb-acb2607af67a" />
+![image](https://github.com/user-attachments/assets/4dda65e6-db81-4391-be7f-eeb96674fa8e)
+
 
 ## Implement GIT and Explaination
 
@@ -13,9 +14,8 @@
 2.**Inisialisasi Repository Git**
     Jalankan perintah berikut untuk menginisialisasi repository Git di folder tersebut:
     
-     ```
-     git init 
-     ```
+    ```
+    git init 
      
 3.**Menambahkan File**
    Jika anda ingin menambahkan file 
