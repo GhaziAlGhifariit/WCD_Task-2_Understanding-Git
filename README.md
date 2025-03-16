@@ -85,10 +85,9 @@
    <img width="579" alt="image" src="https://github.com/user-attachments/assets/48f81528-7dea-4aae-857c-3ba1a7ccf101" />
 
 4.**Push perubahan ke Github**
-   
-       
-  git push origin main
-      
+   ```     
+   git push origin main
+   ```   
 
 ## Working with Branches and Pushing to GitHub
 1. **Buat Branch baru yang akan digunakan**
