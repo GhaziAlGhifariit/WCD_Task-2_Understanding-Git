@@ -50,9 +50,9 @@
 
 5.**Lakukan Commit Pertama Simpan perubahan dengan membuat commit pertama**
 
-    ```
+   
     git commit -m "Feat : Inisialisai commit!"
-    ```
+    
 
     
 ## Making Changes and Pushing to GitHub
@@ -72,24 +72,24 @@
 
 2.**lalu jalankan perintah**
    
-   ```
+   
    git add.
-   ```
+   
 
 3.**Lakukan commit ulang file yang telah dirubah**
       Dengan menjalankan perintah
 
-      ```
+      
       git commit - m "Feature : transalte bahasa"
-      ```
+      
 
    <img width="579" alt="image" src="https://github.com/user-attachments/assets/48f81528-7dea-4aae-857c-3ba1a7ccf101" />
 
 4.**Push perubahan ke Github**
    
-       ```
+       
          git push origin main
-      ```
+      
 
 ## Working with Branches and Pushing to GitHub
 1. **Buat Branch baru yang akan digunakan**
