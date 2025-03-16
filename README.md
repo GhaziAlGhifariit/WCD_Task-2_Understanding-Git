@@ -139,7 +139,7 @@ git status
    ```
 <img width="566" alt="image" src="https://github.com/user-attachments/assets/5226e526-cd62-4255-bbce-c535d8239d9f" />
 
-## Creating a Pull Request, Reviewing Code, and Merging Changes##
+## Creating a Pull Request, Reviewing Code, and Merging Changes
 **1.Buat Pull Request (PR)**
 Setelah melakukan git push pada branch baru, ikuti langkah berikut untuk membuat Pull Request:
 
