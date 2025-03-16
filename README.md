@@ -76,6 +76,8 @@ git push -u origin main
    console.log("Hello, World!");
    ```
 
+menjadi
+
    ```
    console.log("Mencoba repository");
    console.log("Halo,dunia!");
