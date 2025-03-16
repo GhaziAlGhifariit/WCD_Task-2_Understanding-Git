@@ -1,2 +1,2 @@
-console.log("Mencoba repository");
-console.log("halo dunia!");
+console.log("Mencoba membuat branch baru");
+console.log("halo,Bandung!");
