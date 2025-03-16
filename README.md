@@ -92,16 +92,15 @@
 ## Working with Branches and Pushing to GitHub
 1. **Buat Branch baru yang akan digunakan**
     dengan menjalankan perintah :
-
-   ```
-   git checkout -b nama-branch-baru
-   ```
+```
+git checkout -b nama-branch-baru
+```
 
    contoh :
 
-   ```
-   git checkout -b feature-baru 
-   ```
+```
+git checkout -b feature-baru 
+```
 
     ![Screenshot 2025-03-16 092411](https://github.com/user-attachments/assets/1a941aa5-46c1-495e-97d7-dcb50b219f03)
 
