@@ -163,7 +163,9 @@ Klik tombol "Create pull request" untuk mengajukan PR.
 Jika Anda atau rekan tim Anda ingin meninjau kode sebelum menggabungkannya:
 
 ✅ Klik pada file yang mengalami perubahan.
+
 ✅ Berikan komentar pada baris kode jika diperlukan.
+
 ✅ Pastikan kode sesuai standar dan tidak ada bug yang mencolok.
 
 **3.Merge Perubahan ke Branch Utama**
