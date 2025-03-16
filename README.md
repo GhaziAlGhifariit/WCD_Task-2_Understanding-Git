@@ -54,8 +54,8 @@
   git commit -m "Feat : Inisialisai commit!"
   ```  
     
-6.**Hubungkan menghubungkan repositori lokal Anda dengan repositori jarak jauh (remote repository) yang biasanya berada di server seperti GitHub**
-lalu copy addres repository anda yang sudah dibuat
+6.**Hubungkan menghubungkan repositori lokal Anda dengan repositori jarak jauh (remote repository) yang biasanya berada di server seperti GitHub
+lalu copy addres repository anda yang sudah dibuat**
 
 ```
 git remote add origin https://github.com/GhaziAlGhifariit/WCD_Task-2_Understanding-Git.git
