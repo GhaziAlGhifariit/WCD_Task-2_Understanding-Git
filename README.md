@@ -69,8 +69,6 @@
    console.log("Halo,dunia!");
    ```
 
-   ![Screenshot 2025-03-16 085731](https://github.com/user-attachments/assets/ea98c449-fa77-4d91-8581-d4b33f02eca6)
-
 2.**lalu jalankan perintah**
    
    ```
