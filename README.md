@@ -54,6 +54,18 @@
   git commit -m "Feat : Inisialisai commit!"
   ```  
     
+6.**Hubungkan menghubungkan repositori lokal Anda dengan repositori jarak jauh (remote repository) yang biasanya berada di server seperti GitHub
+lalu copy addres repository anda yang sudah dibuat**
+
+```
+git remote add origin https://github.com/GhaziAlGhifariit/WCD_Task-2_Understanding-Git.git
+```
+7.**Push the local changes to GitHub**
+
+```
+git push -u origin main
+```
+
 
     
 ## Making Changes and Pushing to GitHub
@@ -78,8 +90,9 @@
 3.**Lakukan commit ulang file yang telah dirubah**
       Dengan menjalankan perintah
 
-      
+   ```   
    git commit - m "Feature : transalte bahasa"
+   ```
       
 
    <img width="579" alt="image" src="https://github.com/user-attachments/assets/48f81528-7dea-4aae-857c-3ba1a7ccf101" />
