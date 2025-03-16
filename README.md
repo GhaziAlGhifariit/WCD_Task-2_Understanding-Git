@@ -14,7 +14,6 @@
 2.**Inisialisasi Repository Git**
     Jalankan perintah berikut untuk menginisialisasi repository Git di folder tersebut:
     
-    ```
     git init 
      
 3.**Menambahkan File**
