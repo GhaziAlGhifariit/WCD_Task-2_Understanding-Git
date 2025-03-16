@@ -1,2 +1,2 @@
-console.log("Try Repository");
-console.log("Hello, World!");
+console.log("Mencoba repository");
+console.log("halo dunia!");
