@@ -90,8 +90,9 @@ git push -u origin main
 3.**Lakukan commit ulang file yang telah dirubah**
       Dengan menjalankan perintah
 
-      
+   ```   
    git commit - m "Feature : transalte bahasa"
+   ```
       
 
    <img width="579" alt="image" src="https://github.com/user-attachments/assets/48f81528-7dea-4aae-857c-3ba1a7ccf101" />
