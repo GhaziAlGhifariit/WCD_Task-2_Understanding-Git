@@ -1,22 +1,23 @@
-(https://github.com/user-attachments/assets/c94bc163-3fd2-4bfe-88ec-a3528097405b)
+<img width="566" alt="image" src="https://github.com/user-attachments/assets/834c6b18-8f4d-47cc-88fb-acb2607af67a" />
+
 ## Implement GIT and Explaination
 
-1. ## Initializing a Repository**
+ ## Initializing a Repository**
 
-a.**Buat Direktori File**
+1.**Buat Direktori File**
    Langkah pertama anda harus memastikan sudah membuat folder.
    ```
    mkdir nama_folder //digunakan jika anda belum membuat folder yang akan dipakai
    cd nama_folder  // untuk mengakses folder yang kamu buat
    ```
-b.**Inisialisasi Repository Git**
+2.**Inisialisasi Repository Git**
     Jalankan perintah berikut untuk menginisialisasi repository Git di folder tersebut:
     
      ```
      git init 
      ```
      
-c. **Menambahkan File**
+3.**Menambahkan File**
    Jika anda ingin menambahkan file 
    ```
    git add <nama_file>
@@ -35,7 +36,7 @@ c. **Menambahkan File**
 
   
 
-d.**Cek Status Repository**
+4.**Cek Status Repository**
   ```
   git status
   ```
@@ -48,14 +49,14 @@ d.**Cek Status Repository**
       4.Perbedaan dengan remote repository – Apakah ada commit yang belum di-push atau perlu di-pull dari remote repository.
 
 
-e.**Lakukan Commit Pertama Simpan perubahan dengan membuat commit pertama**
+5.**Lakukan Commit Pertama Simpan perubahan dengan membuat commit pertama**
     ```
     git commit -m "Feat : Inisialisai commit!"
     ```
 
     
-   2. ## Making Changes and Pushing to GitHub
-a.**Lakukan perubahan pada file**
+## Making Changes and Pushing to GitHub
+1.**Lakukan perubahan pada file**
 
    ```
    console.log("Try Repository");
@@ -69,13 +70,13 @@ a.**Lakukan perubahan pada file**
 
    ![Screenshot 2025-03-16 085731](https://github.com/user-attachments/assets/ea98c449-fa77-4d91-8581-d4b33f02eca6)
 
-b.**lalu jalankan perintah**
+2.**lalu jalankan perintah**
    
    ```
    git add.
    ```
 
-c.**Lakukan commit ulang file yang telah dirubah**
+3.**Lakukan commit ulang file yang telah dirubah**
       Dengan menjalankan perintah
 
       ```
@@ -84,14 +85,14 @@ c.**Lakukan commit ulang file yang telah dirubah**
 
    <img width="579" alt="image" src="https://github.com/user-attachments/assets/48f81528-7dea-4aae-857c-3ba1a7ccf101" />
 
-   d.**Push perubahan ke Github**
+4.**Push perubahan ke Github**
    
        ```
          git push origin main
       ```
 
-3. ## Working with Branches and Pushing to GitHub
-   a.**Buat Branch baru yang akan digunakan**
+## Working with Branches and Pushing to GitHub
+1. **Buat Branch baru yang akan digunakan**
     dengan menjalankan perintah :
 
    ```
@@ -106,14 +107,14 @@ c.**Lakukan commit ulang file yang telah dirubah**
 
    ![Screenshot 2025-03-16 092411](https://github.com/user-attachments/assets/1a941aa5-46c1-495e-97d7-dcb50b219f03)
 
-b.**Lakukan perubahan pada file**
+2.**Lakukan perubahan pada file**
 
  ```
    console.log("Mencoba membuat branch baru")//output baru untuk branch baru
    console.log("Halo,bandung!"); // output baru untuk branch baru
    ```
 
-C.**Cek kembali status**
+3.**Cek kembali status**
        
    ```
          git status
@@ -121,17 +122,17 @@ C.**Cek kembali status**
 
    ![Screenshot 2025-03-16 092914](https://github.com/user-attachments/assets/88e7b0e4-7fe4-493b-8967-6c8733cd13b9)
    
-d.**Tambahkan File ke Staging Area**
+4.**Tambahkan File ke Staging Area**
 
    ```
       git add .
    ```
-e.**Lakukan Commit ulang untuk branch baru**
+5.**Lakukan Commit ulang untuk branch baru**
 
    ```
    git commit -m "feature:fitur baru"
    ```
-f.**Push Branch ke GitHub**
+6.**Push Branch ke GitHub**
 
    ```
    git push origin feature-baru
