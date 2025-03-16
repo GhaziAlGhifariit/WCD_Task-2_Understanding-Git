@@ -54,7 +54,14 @@
   git commit -m "Feat : Inisialisai commit!"
   ```  
     
+6.**Hubungkan menghubungkan repositori lokal Anda dengan repositori jarak jauh (remote repository) yang biasanya berada di server seperti GitHub**
+lalu copy addres repository anda yang sudah dibuat
 
+```
+git remote add origin 
+```
+
+jalankan perintah 
     
 ## Making Changes and Pushing to GitHub
 1.**Lakukan perubahan pada file**
