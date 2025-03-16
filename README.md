@@ -1,7 +1,7 @@
 ![image](https://github.com/user-attachments/assets/4dda65e6-db81-4391-be7f-eeb96674fa8e)
 
 
-## Implement GIT and Explaination
+## Implement GIT and Explaination##
 
  ## Initializing a Repository**
 
