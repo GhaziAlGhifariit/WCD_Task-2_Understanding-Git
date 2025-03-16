@@ -60,13 +60,13 @@ lalu copy addres repository anda yang sudah dibuat
 ```
 git remote add origin https://github.com/GhaziAlGhifariit/WCD_Task-2_Understanding-Git.git
 ```
-7.**Push the local changes to GitHu**
+7.**Push the local changes to GitHub**
 
 ```
 git push -u origin main
 ```
 
-jalankan perintah 
+
     
 ## Making Changes and Pushing to GitHub
 1.**Lakukan perubahan pada file**
