@@ -144,13 +144,21 @@ git status
 Setelah melakukan git push pada branch baru, ikuti langkah berikut untuk membuat Pull Request:
 
 Buka repository Anda di GitHub.
+
 Klik tab "Pull Requests" di bagian atas halaman.
+
 Klik tombol hijau "New pull request".
+
 Pada bagian "base", pilih branch utama (misalnya main).
+
 Pada bagian "compare", pilih branch yang berisi perubahan Anda (misalnya feature/add-login).
+
 Klik tombol "Create pull request".
+
 Beri judul yang deskriptif dan tambahkan penjelasan singkat tentang perubahan yang Anda lakukan.
+
 Klik tombol "Create pull request" untuk mengajukan PR.
+
 **2.Review Kode**
 Jika Anda atau rekan tim Anda ingin meninjau kode sebelum menggabungkannya:
 
