@@ -110,7 +110,7 @@ git checkout -b feature-baru
 2.**Lakukan perubahan pada file**
 
 ```
-console.log("Mencoba membuat branch baru")//output baru untuk branch baru
+console.log("Mencoba membuat branch baru");//output baru untuk branch baru
 console.log("Halo,bandung!"); // output baru untuk branch baru
 ```
 
