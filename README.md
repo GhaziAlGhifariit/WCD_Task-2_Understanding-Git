@@ -22,8 +22,9 @@
    git add <nama_file>
    ```
   contoh file yang dibuat bernama Tryrepository.js
+  
    ```
-  git add Tryrepository.js
+   git add Tryrepository.js
    ```
 
    untuk menambahkan semua perubahan dalam direktori kerja saat ini ke staging area sebelum melakukan commit,
@@ -50,9 +51,10 @@
 
 5.**Lakukan Commit Pertama Simpan perubahan dengan membuat commit pertama**
 
-   
+    ```
     git commit -m "Feat : Inisialisai commit!"
     
+    ```
 
     
 ## Making Changes and Pushing to GitHub
@@ -101,8 +103,9 @@
 
    contoh :
 
-   ````
+   ```
    git checkout -b feature-baru
+   
    ```
 
     ![Screenshot 2025-03-16 092411](https://github.com/user-attachments/assets/1a941aa5-46c1-495e-97d7-dcb50b219f03)
