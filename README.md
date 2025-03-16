@@ -52,7 +52,7 @@
 5.**Lakukan Commit Pertama Simpan perubahan dengan membuat commit pertama**
 
     
-    git commit -m "Feat : Inisialisai commit!"
+ git commit -m "Feat : Inisialisai commit!"
     
     
 
@@ -90,7 +90,7 @@
 4.**Push perubahan ke Github**
    
        
-         git push origin main
+  git push origin main
       
 
 ## Working with Branches and Pushing to GitHub
@@ -113,28 +113,28 @@
 2.**Lakukan perubahan pada file**
 
  ```
-   console.log("Mencoba membuat branch baru")//output baru untuk branch baru
-   console.log("Halo,bandung!"); // output baru untuk branch baru
-   ```
+ console.log("Mencoba membuat branch baru")//output baru untuk branch baru
+ console.log("Halo,bandung!"); // output baru untuk branch baru
+ ```
 
 3.**Cek kembali status**
        
-   ```
-         git status
-   ```
+ ```
+ git status
+ ```
 
    ![Screenshot 2025-03-16 092914](https://github.com/user-attachments/assets/88e7b0e4-7fe4-493b-8967-6c8733cd13b9)
    
 4.**Tambahkan File ke Staging Area**
 
-   ```
-      git add .
-   ```
+ ```
+ git add .
+ ```
 5.**Lakukan Commit ulang untuk branch baru**
 
-   ```
-   git commit -m "feature:fitur baru"
-   ```
+  ```
+  git commit -m "feature:fitur baru"
+  ```
 6.**Push Branch ke GitHub**
 
    ```
@@ -142,9 +142,39 @@
    ```
 <img width="566" alt="image" src="https://github.com/user-attachments/assets/5226e526-cd62-4255-bbce-c535d8239d9f" />
 
+## Creating a Pull Request, Reviewing Code, and Merging Changes##
+**1.Buat Pull Request (PR)**
+Setelah melakukan git push pada branch baru, ikuti langkah berikut untuk membuat Pull Request:
 
+Buka repository Anda di GitHub.
+Klik tab "Pull Requests" di bagian atas halaman.
+Klik tombol hijau "New pull request".
+Pada bagian "base", pilih branch utama (misalnya main).
+Pada bagian "compare", pilih branch yang berisi perubahan Anda (misalnya feature/add-login).
+Klik tombol "Create pull request".
+Beri judul yang deskriptif dan tambahkan penjelasan singkat tentang perubahan yang Anda lakukan.
+Klik tombol "Create pull request" untuk mengajukan PR.
+**2.Review Kode**
+Jika Anda atau rekan tim Anda ingin meninjau kode sebelum menggabungkannya:
 
-   
+✅ Klik pada file yang mengalami perubahan.
+✅ Berikan komentar pada baris kode jika diperlukan.
+✅ Pastikan kode sesuai standar dan tidak ada bug yang mencolok.
+
+**3.Merge Perubahan ke Branch Utama**
+Setelah kode direview dan disetujui, Anda bisa menggabungkan perubahan ke branch utama:
+
+ 1. Klik tombol hijau "Merge pull request".
+ 2. Klik tombol "Confirm merge" untuk menyelesaikan proses.
+ 3. Setelah merge selesai, Anda bisa menghapus branch yang sudah digabung dengan klik tombol "Delete branch" (opsional untuk menjaga repository tetap rapi).
+
+**4. Sinkronisasi Repository Lokal (Opsional)**
+Setelah merge dilakukan di GitHub, sinkronkan branch utama Anda dengan perintah berikut:
+
+```
+git checkout main
+git pull origin main
+```
    
 
 
